@@ -12,14 +12,14 @@ By visualizing the dataset in a variety of ways, we found several initial trends
 
 *Figure 1: There is no correlation between gender and herpes disease status within this data set, contrary to government reported data (similar plots were created for all STDs and were not shown here for brevity since they show qualitatively the same trend).*
 
-<img src="Figures/herpes.pdf" width="500">
-![Drag Racing](Figures/herpes.pdf)
+<img src="Figures/herpes.png" width="700">
+
 *Figure 2: Across income distributions, there is no apparent income bracket alone that is at particular risk (similar plots were created for all STDs and were not shown here for brevity since they show qualitatively the same trend).*
 
 For our statistical analysis, we ran a multiple linear regression over all the gender, income, and education categories within the 65+ cohorts in California. We first encoded each categorical value as a 0 or 1 for subsequent analyses (i.e. one-hot encoding). After converting the categories in this way, we ran a simple linear regression where the dependent variable, y, was the prevalence of each STD, and X was a vector of all the other independent demographic variables. We tested the null hypothesis, for each independent variable in X, that its coefficient was 0, and obtained a p-value for that test. In addition, we obtained a Bonferroni-corrected significance level accounting for multiple-hypothesis testing by dividing a threshold of 0.05 by the number of independent demographic variables and compared the p-values of each coefficient to that threshold. This analysis led us to exclude, for each STD, any variable associated with a coefficient not significantly different than zero; i.e. the variation in that STD could not be explained by the independent variable.
 From this analysis, we observed the following. First, for most STDs, either low or high incomes did not significantly explain prevalence, whereas middle incomes did. This could let us, or other researchers, high and low incomes into one or two buckets, e.g. $< \$40,000$ and $> \$75,000$. However, this might reflect the challenges of collecting data from low-income and very high-income people, rather than inherent variation. Additionally, some STDs, such as trich and parasitic, had too much missing data to allow any of the demographic variables by themselves to explain much of the variance. We also found through our regression that gender did not matter statistically, which is contrary to government-reported data (not included in this analysis) and probably reflects the internal biases of the data construction.
 
-<img src="Figures/education-and-risk.png" width="800">
+<img src="Figures/herpes_education.png" width="600">
 
 *Figure 3: Education level within the 65+ cohort reveals potential risk factors, namely among those who went to graduate school*
 
