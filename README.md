@@ -14,5 +14,5 @@ pip install -r requirements.txt
 ```
 - The Jupyter notebooks are organized as follows:
   - [violin_plots.ipynb](https://github.com/jbinagia/blueprint-datathon/blob/master/violin_plots.ipynb): used to create the [violin plots](https://en.wikipedia.org/wiki/Violin_plot?oldformat=true) found in slides 4 - 6 of our [final presentation](Datathon_Presentation.pdf).
-  - [line_plots.ipynb](https://github.com/jbinagia/blueprint-datathon/blob/master/violin_plots.ipynb): used to create the figures shown in slides 7 and 8 of our [presentation](Datathon_Presentation.pdf).
-  - [regression.ipynb](regression.ipynb) : used for the hypothesis testing described in slides 9 - 11 of the presentation.
+  - [line_plots.ipynb](https://github.com/jbinagia/blueprint-datathon/blob/master/violin_plots.ipynb): used to create the line plots shown in slides 7 and 8 of our [presentation](Datathon_Presentation.pdf).
+  - [regression.ipynb](regression.ipynb) : used for the hypothesis testing described in slides 9 - 11 of the [presentation](Datathon_Presentation.pdf).
