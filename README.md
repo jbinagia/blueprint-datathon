@@ -9,7 +9,7 @@ It is well-known that sexually transmitted diseases are increasing in prevalence
 By visualizing the dataset in a variety of ways, we found several initial trends. First, through the use of violin plots (Fig. 1 and Fig. 2), we ruled out gender and income as strong predictors for STD prevalence. Interestingly enough, we found that STD rates were much higher for those who attend graduate school, as shown in Fig. 3 and Fig. 4.
 
 <p align="center">
-  <img width="800" src="Figures/gender-and-herpes.png">
+  <img width="600" src="Figures/gender-and-herpes.png">
 </p>
 
 *Figure 1: There is no correlation between gender and herpes disease status within this data set, contrary to government reported data (similar plots were created for all STDs and were not shown here for brevity since they show qualitatively the same trend).*
