@@ -23,7 +23,7 @@ From this analysis, we observed the following. First, for most STDs, either low 
 
 *Figure 3: Education level within the 65+ cohort reveals potential risk factors, namely among those who went to graduate school*
 
-<img src="Figures/prev-over-time.png" width="800">
+<img src="Figures/herpes_vs_time_Male.png" width="500">
 
 *Figure 4: Prevalence over time for the cohort corresponding to 65 - 74 years old in the $70,000 - $74,999 income bracket (the cohort with the most recorded data). Herpes prevalence is greatest for those who attended graduate school (similar trends are seen for females, as shown in our slides).*
 
